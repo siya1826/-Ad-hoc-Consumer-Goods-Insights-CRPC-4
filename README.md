@@ -10,13 +10,13 @@ Recently, the management identified a need for deeper, faster insights into sale
 ---
 
 ## Company Product Structure, Platform & Market Channel :
-   ![](Images/1.png)
+   ![](Images/company_product_structure.png.png)
    
 ---
 
 ## Dataset View :
 
-   ![](Images/1.png)
+   ![](Images/data_model.png)
    
 * Fiscal year for AtliQ Hardware :- 1st September to 31st August
 * Sales data is available for fiscal year 2020-2021
@@ -33,7 +33,7 @@ Recently, the management identified a need for deeper, faster insights into sale
    WHERE customer="Atliq Exclusive" AND region="APAC";
   ```
 
-  ![](Images/1.png)
+  ![](Images/br-1.png)
   
 ---
 
@@ -68,7 +68,7 @@ Recently, the management identified a need for deeper, faster insights into sale
      FROM product_counts_yearly
   ```
 
-  ![](Images/1.png)
+  ![](Images/br-2.png)
   
 * In FY 2020, we had a total of 245 products, but in FY 2021 our count increased by 36.33% to 334 products.
 * It’s a good sign that we are continuously innovating and introducing new products to the market.
@@ -87,7 +87,7 @@ Recently, the management identified a need for deeper, faster insights into sale
    ORDER BY product_count DESC;
   ```
 
-  ![](Images/1.png)
+  ![](Images/br-3.png)
   
 * We have a wide range of products under segments : Notebook, Accessories, Peripherals with an average of 110 products per segment
 * While Desktop,Storage,Networking are lagging with an average of 23 products per segment
@@ -127,7 +127,7 @@ Recently, the management identified a need for deeper, faster insights into sale
      ORDER BY difference DESC;
   ```
 
-  ![](Images/1.png)
+  ![](Images/br-4.png)
   
 * With the introduction of 34 new products, Accessories segment has the highest increase in number of products
 * Notebook and Peripherals each has an increment of 16 products
@@ -155,7 +155,7 @@ Recently, the management identified a need for deeper, faster insights into sale
                               FROM fact_manufacturing_cost);
   ```
 
-  ![](Images/1.png)
+  ![](Images/br-5.png)
   
 ---
 
@@ -178,7 +178,7 @@ Recently, the management identified a need for deeper, faster insights into sale
    LIMIT 5;
   ```
 
-  ![](Images/1.png)
+  ![](Images/br-6.png)
   
 * Flipkart has received highest 30.83% pre-invoice discount
 * Amazon has low pre invoice discount 29.33%
@@ -206,7 +206,7 @@ Recently, the management identified a need for deeper, faster insights into sale
    ORDER BY year_;
   ```
 
-  ![](Images/1.png)
+  ![](Images/br-7.png)
   
 * Highest sales were recorderd in November-2020 (20.5M) & lowest sales in March-2020(0.38M). 
 * From March-August in 2020 sales are low because of the pandemic all the stores are closed. 
@@ -241,7 +241,7 @@ Recently, the management identified a need for deeper, faster insights into sale
   LIMIT 1;
   ```
 
-  ![](Images/1.png)
+  ![](Images/br-8.png)
 
 * Q1 (September-November) has highest sales (7.01M)
 * Q3 (March-May) sales dropped because of pandemic
@@ -276,7 +276,7 @@ Recently, the management identified a need for deeper, faster insights into sale
    ORDER BY gross_sales DESC;
   ```
 
-  ![](Images/1.png)
+  ![](Images/br-9.png)
 
 * Retailer brings the maximum sales to the company 1024.17M (73.2%)
 * Channel Direct generates 406.69M (15.5%) sales
@@ -322,7 +322,7 @@ Recently, the management identified a need for deeper, faster insights into sale
   WHERE rank_order <= 3;
   ```
 
-  ![](Images/1.png)
+  ![](Images/br-10.png)
 
 * N&S : Top selling product is AQ Pen Drive 2 IN 1 with a total of 7,01,373 quantities sold, followed by two variants of AQ Pen Drive DRC with 6,88,003 and 6,76,245 quantity.
 * P&A : AQ Gamers Ms is top selling product with a total of 4,28,498 quantities sold, followed by two variants of AQ Maxima Ms
